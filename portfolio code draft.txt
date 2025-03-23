@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A portfolio showcasing my projects, skills, and contact details.">
+    <meta name="author" content="Edlan So">
+    <meta property="og:title" content="Edlan So | Portfolio">
+    <meta property="og:description" content="A collection of my web development projects and skills.">
+    <meta property="og:image" content="thumbnail.jpg">
+    <meta property="og:url" content="https://edlansoportfolio.com">
+    <title>My Portfolio - Edlan So</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+  </head>
+
+  <body>
+    <main>
+      <section id='home'>
+	<h1>Hi, I'm Edlan! 👋</h1>
+	<p>UWaterloo | Nanotechnology Engineering | Aspiring Engineer</p>
+      </section>
+
+      <section id='About'>
+	<h2>About me</h2>
+	<p>I'm an Nanotechnology Engineering student at the University of Waterloo.</p>
+	<h3>My skills:</h3>
+	<ul>
+          <li> <strong>CAD skills</strong>: Solidworks, TinkerCAD & Blender </li>
+          <li> <strong>Coding skills</strong>: MATLAB, Python & HTML </li>
+          <li> <strong>Lab skills</strong>: Circuit Labs, Electromagnetism Labs, Material Science and Engineering Labs & Organic Chemistry Labs</li>
+          <li> <strong>Technical skills</strong>: Cloud Computing (Azure AI), Data Collection, Data Analysis and Management, Electrical Circuit Analysis, Literature Review & Online Research </li>
+          <li> <strong>Microsoft Office skills</strong>: Excel, PowerPoint, Outlook, & Word</li>
+          <li> <strong>Interpersonal skills</strong>: Fluent in Cantonese and Mandarin, Teamwork, Problem solving  </li>
+      </section>
+
+      <section id="projects">
+        <h2>Projects / Experience </h2>
+        <div class="projects">
+            <h3>Microplastic Filtration: Eco-Friendly Solutions for Water Purification - from January 2025 to April 2025</h3>
+            <p>The goal is to purify water using wood fibre filters. </p>
+            <a href="https://1drv.ms/p/s!ApXkLJqyg9tJgS3-fjkBewZHv7z6">View on OneDrive</a>
+        </div>
+      </section>
+
+
+
+      <section>
+      <h2>Education</h2>
+	<p><strong>Candidate for Bachelor of Applied Science in Nanotechnology Engineering</strong></p>
+	<p>Honors, Co-operative Program, University of Waterloo,</p>
+	<p>Waterloo, Ontario, September 2023 - present</p>
+
+
+
+        <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      
+      </section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
+
+
+
+Css original code: 
+
+/* Smooth Scrolling */
+
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+    height: 100%; 
+    overflow: hidden; 
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* Adjust sections to prevent hiding behind fixed navbar */
+section {
+    padding: 80px;
+    margin-top: 50px;
+    text-align: center;
+    scroll-margin-top: 60px; /* Prevents content from being hidden under navbar */
+}
+
+main {
+    padding-top: 60px; 
+}
+
+
+#skills h1 {
+    text-align: center; 
+}
+
+#skills ul {
+    text-align: left;  
+    margin: 0 auto;  
+    max-width: 600px; 
+}
+
+#projects {
+    min-height: 100vh;
+    overflow-y: auto;
+    padding: 120px;
+    text-align: center;
+    background-color: #BDC3C7;
+}
+
+#projects h1 {
+    text-align: center; 
+}
+
+#projects ul {
+    text-align: left;  
+    margin: 0 auto;  
+    max-width: 600px; 
+}
+
+#certifications-courses ul {
+    text-align: left;  
+    margin: 0 auto;  
+    max-width: 600px; 
+}
+
+#contact {
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#about { background-color: #ECf0f1; }
+#skills { background-color: #D5DBDB; }
+#certifications-courses { background-color: #808080; }
+#publications { background-color: #7F8C8D; }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
+Css code:
+
+
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+body, html {
+    overflow: hidden;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+main {
+    padding-top: 60px; 
+}
+
+section {
+    height: 100vh;
+    padding: 120px;
+    margin-top: 50px;
+    text-align: center;
+    transition: transform 2s ease-in-out;
+}
+
+#skills h1 {
+    text-align: center; 
+}
+
+#skills ul {
+    text-align: left;  
+    margin: 0 auto;  
+    max-width: 600px; 
+}
+
+#projects {
+    min-height: 100vh;
+    overflow-y: auto;
+    padding: 120px;
+    text-align: center;
+    background-color: #BDC3C7;
+}
+
+#projects h1 {
+    text-align: center; 
+}
+
+#projects ul {
+    text-align: left;  
+    margin: 0 auto;  
+    max-width: 600px; 
+}
+
+#certifications-courses ul {
+    text-align: left;  
+    margin: 0 auto;  
+    max-width: 600px; 
+}
+
+#contact {
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#about { background-color: #ECf0f1; }
+#skills { background-color: #D5DBDB; }
+#certifications-courses { background-color: #808080; }
+#publications { background-color: #7F8C8D; }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
+
+Javascript: 
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll("section");
+    let currentIndex = 0;
+    let isScrolling = false;
+
+    function scrollToSection(index) {
+        if (index >= 0 && index < sections.length) {
+            isScrolling = true;
+            sections[index].scrollIntoView({ behavior: "smooth" });
+            currentIndex = index;
+
+            // Lock scrolling temporarily
+            setTimeout(() => { isScrolling = false; }, 1000);
+        }
+    }
+
+    function handleScroll(event) {
+        if (isScrolling) return;
+
+        let delta = event.deltaY || -event.detail;
+        if (delta > 30 && currentIndex < sections.length - 1) {
+            scrollToSection(currentIndex + 1);
+        } else if (delta < -30 && currentIndex > 0) {
+            scrollToSection(currentIndex - 1);
+        }
+    }
+
+    function handleKeydown(event) {
+        if (isScrolling) return;
+
+        if (event.key === "ArrowDown") {
+            scrollToSection(currentIndex + 1);
+        } else if (event.key === "ArrowUp") {
+            scrollToSection(currentIndex - 1);
+        }
+    }
+
+    window.addEventListener("wheel", handleScroll, { passive: false });
+    window.addEventListener("keydown", handleKeydown);
+});
+</script>

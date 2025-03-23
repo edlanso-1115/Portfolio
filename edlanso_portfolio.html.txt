@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A portfolio showcasing my projects, skills, and contact details.">
+    <meta name="author" content="Edlan So">
+    <meta property="og:title" content="Edlan So | Portfolio">
+    <meta property="og:description" content="A collection of my web development projects and skills.">
+    <meta property="og:image" content="thumbnail.jpg">
+    <meta property="og:url" content="https://edlansoportfolio.com">
+    <title>My Portfolio - Edlan So</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+	    <h1 class="nav-title">Edlan So's Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Hi, I'm Edlan!👋 Welcome to my portfolio! </p>
+	    <p>I'm a Nanotechnology Engineering 🧬 student at the University of Waterloo.</p>
+        </section>
+
+        <section id="skills">
+            <h1>Skills</h1>
+            <ul>
+            	<li> <strong>CAD skills 📐 </strong>: Solidworks, TinkerCAD & Blender </li>
+          	<li> <strong>Coding skills 💻 </strong>: MATLAB, Python & HTML </li>
+          	<li> <strong>Lab skills 🧑‍🔬 </strong>: Circuit Labs, Electromagnetism Labs, Material Science and Engineering Labs & Organic Chemistry Labs</li>
+          	<li> <strong>Technical skills 📏 </strong>: Cloud Computing (Azure AI), Data Collection, Data Analysis and Management, Electrical Circuit Analysis, Literature Review, Online Research & Web Design</li>
+         	<li> <strong>Microsoft Office skills ⚙️ </strong>: Excel, PowerPoint, Outlook, & Word</li>
+         	<li> <strong>Interpersonal skills 🗣️ </strong>: Fluent in Cantonese and Mandarin, Teamwork, Problem solving  </li>
+	    </ul>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+	    <ul>
+	    	<li><p><strong>Microplastic Filtration: Eco-Friendly Solutions for Water Purification</strong> - from January 2025 to April 2025</p>
+            	    <ul>
+			<li>Performed literature review (Different methods of filtering MP, Evaluation of membranes performance for microplastic removal, CNF-coated delignified wood as MP filtration) to support experimental design and analysis. </li>
+			<li>Conducted experiments on microplastic filtration techniques in a laboratory setting (building wood fibers from soft wood pulp by adding surfactants, blends and crosslinkers). </li> 
+			<li>Collected, processed, and analyzed data to evaluate filtration efficiencies using the particle counter and fit absorption isotherm models between different wood fiber samples using pyplot. </li>
+			<li>Collaborated with researchers to optimize sustainable filtration solutions and developed insights for improving microplastic removal technologies.</li>
+			<li>Delivered presentations to researchers and professors about background, literature review and planned experiment procedures of the microplastic filtration topic using Microsoft PowerPoint.</li>
+		    </ul>
+                    <a href="https://1drv.ms/p/s!ApXkLJqyg9tJgS3-fjkBewZHv7z6">View Presentation 1 on OneDrive </a>
+		    <br>
+		    <a href=''>View Presentation 2 on OneDrive</a></li>
+
+	    	<li><p><strong>Medical Research Assistant</strong> - from July 2024 to August 2024</p>
+		    <ul>
+			<li>Successfully completed the AZ-900 (Microsoft Azure Fundamentals) certification, demonstrating foundational knowledge of cloud concepts, Azure services, and Azure privacy, and pricing models.</li>
+			<li>Passed the AI-900 (Azure AI Fundamentals) exam, showcasing understanding of artificial intelligence and machine learning concepts.</li>
+			<li>Actively contributed to a Medical Research Assistant project, focusing on assessing the effectiveness of medical interventions and technologies. Conducted in-depth research on quantifiable impacts and ethical considerations. </li>
+			<li>Collaborated with a team of 4 to synthesize findings into a cohesive project report and presentation.</li>
+		    </ul>
+		    <a href='https://1drv.ms/p/s!ApXkLJqyg9tJgTJMg5L_SA4WYpfC'>View Presentation on OneDrive</a></li>
+	    </ul>
+        </section>
+	    
+	<section id="certifications-courses">
+	</section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Reach out to me at e5so@uwaterloo.ca</p>
+        </section>
+    </main>
+</body>
+</html>
